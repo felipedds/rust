@@ -1,0 +1,20 @@
+# Create a project with cargo
+cargo new [NAME_PROJECT]
+
+# Execute project rust
+cargo run
+
+# Execute file rust with rust compiler
+rustc [NAME_FILE]
+./[NAME_FILE]
+
+# Execute file rust with cargo
+cargo play [NAME_FILE]
+cargo play main.rs
+
+# Generate file's doc
+rustdoc [NAME_FILE]
+rustdoc main.rs
+
+# Generate project's doc
+cargo doc
