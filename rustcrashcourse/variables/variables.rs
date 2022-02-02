@@ -1,3 +1,4 @@
+// Function missiles
 fn missiles() {
     let mut missiles = 8;
     let ready: i32 = 2;
@@ -6,6 +7,7 @@ fn missiles() {
     println!("{} missiles left", missiles)
 }
 
+// Function main
 fn main() {
     let (bunnies, carrots) = (8, 50);
     const COLOR_RED: f64 = 3.3; // constante variable
